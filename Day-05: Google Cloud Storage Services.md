@@ -117,3 +117,33 @@ Delete:
 - Uploaded and downloaded files from VM
 
 ---
+
+# Day-05: GCS with VM
+
+## Tasks Completed
+- Created GCS Bucket
+- Created Service Account
+- Created Compute Engine VM
+- Connected VM with GCS
+- Uploaded & Downloaded files
+
+## Commands Used
+
+```bash
+gcloud storage ls gs://BUCKET_NAME
+```
+
+```bash
+gcloud storage cp gs://BUCKET_NAME/hello.txt .
+```
+
+```bash
+gcloud storage cp vm-upload.txt gs://BUCKET_NAME/
+```
+
+## Key Learnings
+- Learned GCS basics
+- Used Service Accounts securely
+- Accessed Cloud Storage from VM
+
+---
